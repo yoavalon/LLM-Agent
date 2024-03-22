@@ -1,0 +1,5 @@
+n = eval(input())
+a = list(map(int,input().split()))
+mx = a.index(max(a))
+mn = a[::-1].index(min(a))
+print(mn+mx-1 if mn+mx>=n else mn+mx)

@@ -1,0 +1,1 @@
+print(p+q-(p+q>=L))

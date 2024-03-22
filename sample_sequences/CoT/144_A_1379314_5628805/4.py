@@ -1,0 +1,1 @@
+x = a.index(max(a))

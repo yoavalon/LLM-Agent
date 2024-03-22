@@ -1,0 +1,7 @@
+n=eval(input())
+a=list(map(int,input().split()))
+i=a.index(max(a))
+a.reverse()
+j=a.index(min(a))
+if i+j<n: print(i+j)
+else: print(i+j-1)

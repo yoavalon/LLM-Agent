@@ -1,0 +1,4 @@
+n, m = (int)(input()), list(map(int, input().split()))
+res=m[::-1].index(min(m))
+mx=m.index(max(m))
+print(res+mx-(0 if mx<n-1-res else 1))

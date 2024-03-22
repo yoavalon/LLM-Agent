@@ -1,0 +1,1 @@
+p=m.index(max(m))

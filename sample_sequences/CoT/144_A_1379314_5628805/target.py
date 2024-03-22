@@ -1,0 +1,6 @@
+n = eval(input())
+a = list(map(int, input().split()))
+x = a.index(max(a))
+y = a[::-1].index(min(a))
+ans = x + y - (x >  n - 2 - y)
+print(ans)

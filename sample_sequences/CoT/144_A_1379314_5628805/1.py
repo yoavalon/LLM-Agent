@@ -1,0 +1,1 @@
+L=eval(input());m=list(map(int,input().split()))
